@@ -51,7 +51,7 @@ body{background: var(--background);}
     content: '';
     display: block;
     background: var(--white);
-    width: 40%;
+    width: 80%;
     height: 100%;
     border-radius: 9px;
 }
