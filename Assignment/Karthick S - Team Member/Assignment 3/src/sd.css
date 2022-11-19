@@ -1,0 +1,104 @@
+*{
+ margin: 0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:'poppons',sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(58, 155, 147);
+}
+.container{
+
+    width: 28%;
+    height: 65%;
+    background-color:white;
+    box-shadow: 0px 20px 10px rgb(26, 26, 33), 0px 10px 20px rgb(21, 21, 25), 0px 5px 15px rgb(45, 45, 55), 0px 0px 20px rgb(22, 22, 28);
+    padding-left:25px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.kk{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    padding-top:5%;
+}
+.dd{
+    width: 20%;
+    height: 1%;
+    background-color:rgb(58, 155, 147);
+    border-radius: 3px;
+    position: relative;
+}
+.user-details .sd input{
+    height: 25px;
+    width: 50%;
+    outline: none;
+    font-size: 15px;
+    border-radius: 3px;
+    padding-left: 18px;
+    border: 1px solid #3a9c94;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.category{
+    display: flex;
+    width: 90%;
+    margin: 14px 0 ;
+    justify-content: space-between;
+}
+.category label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+.category label .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  } 
+  #dot-1:checked ~ .category label .one,
+  #dot-2:checked ~ .category label .two,
+  #dot-3:checked ~ .category label .three{
+    background: #3a9c94;
+    border-color: #d9d9d9;   
+  }
+  input[type="radio"]{
+    display: none;
+  }
+  .button{
+    height: 35px;
+    margin: 30px 0 ;
+  }
+  .button input{
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient( #71b7e6,#3a9c94);
+  }
+  
+.button input:hover{
+    background: linear-gradient(#3a9c94, #71b7e6);
+ }
+
